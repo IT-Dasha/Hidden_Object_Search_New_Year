@@ -18,35 +18,6 @@ function showHref(event)
 {
   event.preventDefault();//НИКАК ТЕПЕРЬ ССЫЛОЧКУ НЕ ОТКРЫТЬ :)
 }
-//ЗАПУСК МУЗЫКИ, ДЛЯ АТМОСФЕРЫ
-const song=document.getElementById('sound');
-addEventListener(
-  "keydown",
-  (event) => {
-    const keyName = event.key;
-    if (keyName == "1") {
-      event.preventDefault()
-      song.src="https://zvukipro.com/uploads/files/2019-12/1576137873_90b3ab8ca812da1.mp3"
-      song.play();
-    }
-    if (keyName == "2") {
-      event.preventDefault()
-      song.pause();
-      song.src="https://zvukipro.com/uploads/files/2019-12/1576137971_535fa9195111c12.mp3"
-      song.play();
-      
-    }
-    if (keyName == "3") {
-      event.preventDefault()
-      song.pause();
-      song.src="https://zvukipro.com/uploads/files/2019-12/1576138947_68df6fe052d9406.mp3"
-      song.play();
-  }
-  if (keyName == "ё") {
-    event.preventDefault()
-    song.pause();
-}
-})
 //ПОЛУЧАЕМ СЕРВЕРНЫЕ ДАННЫЕ И ЗАПУСКАЕМ ИГРУ
 var xhr = new XMLHttpRequest();//создаём экземпляр объекта XMLHttpRequest 
 xhr.open( "GET", "https://randomfox.ca/floof/", true);
