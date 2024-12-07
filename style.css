@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f8ff; /* Светлый фон */
+    font-family: Arial, sans-serif; /* Шрифт */
+    display: flex;
+    justify-content: center; /* Центрирование содержимого */
+    align-items: center; /* Вертикальное центрирование */
+    height: 100vh; /* Высота на весь экран */
+    margin: 0; /* Убираем отступы */
+}
+.container {
+    display: flex; /* Используем флекс для расположения элементов */
+    border: 2px solid #1e90ff; /* Синяя рамка */
+    border-radius: 10px; /* Закругленные углы */
+    overflow: hidden; /* Скрываем переполнение */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
+    width: 75%; /* Ширина контейнера */
+    max-width: 1200px; /* Максимальная ширина */
+}
+.img_fon
+{
+    position: absolute;
+    width: 681px;
+    height: 420px;
+    border-radius: 23px
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Центрирование изображения */
+    align-items: center; /* Вертикальное центрирование */
+    background-color: #fff; /* Белый фон для изображения */
+    width: 1786px;
+}
+.image-container img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота */
+}
+.text-container {
+    padding: 31px; /* Отступы внутри рамки */
+    background-color: #e6f7ff; /* Светлый фон для текста */
+    border-left: 2px solid #1e90ff; /* Левая рамка */
+}
+h1 {
+    color: #1e90ff; /* Синий цвет заголовка */
+    text-align: center; /* Центрирование заголовка */
+}
+
+
+  
+.position_items
+{
+    position: relative;
+    width: 2px;
+    height: 34px;
+    top: -260px;
+
+}
+
+.img_items
+{
+    position: relative;
+    object-fit: cover;
+    filter: brightness(70%);
+
+}
+[aria-current="page"] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+  }
+table, th, td  {
+    border: 1px solid #69c;
+    border-collapse: separate;
+    empty-cells: hide;
+ }
+ th, td {
+    border: 2px solid rgb(255, 0, 0);
+ }
+
+ p
+ {
+
+    color: rgb(255, 0, 0); /* Цвет текста */
+    width: 337px; /* Поля вокруг текста */
+ }
+
+
+.gallery-current
+{
+    filter: brightness(500%);
+
+}
+
+
+
+
+
+
+
+
